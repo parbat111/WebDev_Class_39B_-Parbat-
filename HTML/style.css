@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    background: lightgray;
+}
+
+header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+#home p {
+    text-align: justify;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#experience p:nth-child(even) {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background: blue;
+    color: white;
+}
+
+.project {
+    background: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
